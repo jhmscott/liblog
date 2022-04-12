@@ -163,7 +163,7 @@ export default class Logger
     /// @param[in] message  Message to log
     /// @param[in] req      Request object. Parses username and IP address
     //////////////////////////////////////////////////////////////////////////////
-    static info (message: string, ip: string = null, username: string = null)
+    static info (message: string, ip: string | null = null, username: string | null = null)
     {
         if (this._loggingLevel >= LoggingLevel.INFO)
         {
@@ -236,7 +236,7 @@ export default class Logger
     ///
     /// @param[in]  Code    Application exit code
     //////////////////////////////////////////////////////////////////////////////
-    static uninit (code)
+    static uninit (code: number)
     {
         console.info ("");
         console.info (`Application exited with code ${code}`);

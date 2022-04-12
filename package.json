@@ -2,6 +2,10 @@
   "name": "liblog",
   "version": "0.1.0",
   "description": "Simple Logging Library for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhmscott/liblog.git"
+  },
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
