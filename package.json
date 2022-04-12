@@ -1,5 +1,5 @@
 {
-  "name": "liblog",
+  "name": "libjlog",
   "version": "0.1.0",
   "description": "Simple Logging Library for Node.js",
   "repository": {
